@@ -159,10 +159,8 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                             <div class="col-md-6 text-xs">
                                 <p>
                                 <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'newsup' ) ); ?>">
-								<?php
-								/* translators: placeholder replaced with string */
-								printf( esc_html__( 'Proudly powered by %s', 'newsup' ), 'WordPress' );
-								?>
+
+									<Inzamam edited to remove line 162-165 on 11-16-20>
 								</a>
 								<span class="sep"> | </span>
 								<?php
@@ -175,14 +173,8 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
 
 
                             <div class="col-md-6 text-right text-xs">
-                                <?php wp_nav_menu( array(
-        								'theme_location' => 'footer',
-        								'container'  => 'nav-collapse collapse navbar-inverse-collapse',
-        								'menu_class' => 'info-right',
-        								'fallback_cb' => 'newsup_fallback_page_menu',
-        								'walker' => new newsup_nav_walker()
-        							) ); 
-        						?>
+       
+								<inzamam edited to remove line 175-183 on 11-16-20>
                             </div>
                         </div>
                     </div>
